@@ -16,7 +16,7 @@ public class Player_Movement : MonoBehaviour
     }
 
 
-    void Update()
+ /*   void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
@@ -24,10 +24,17 @@ public class Player_Movement : MonoBehaviour
         Vector3 diference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float rotateZ = Mathf.Atan2(diference.y, diference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ);
-    }
+    }*/
 
     private void FixedUpdate()
     {
+        horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
+
+        Vector3 diference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float rotateZ = Mathf.Atan2(diference.y, diference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateZ);
+
         if (horizontal != 0 && vertical != 0)
         {
             horizontal *= moveLimit;
