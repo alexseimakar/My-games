@@ -617,9 +617,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97bf3654617cc144592dcd2e7af20da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1433883156}
+  PlayerTarget: {fileID: 1433883156}
+  CrosshairTarget: {fileID: 1291699948}
   smoothSpeed: 0.125
-  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &564729191
 GameObject:
   m_ObjectHideFlags: 0
