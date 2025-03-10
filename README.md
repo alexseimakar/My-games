@@ -1,2 +1,2 @@
 # Roguemetry
-My first game
+Roguelike, top down shooter
