@@ -1,5 +1,5 @@
 # Private projects for study
-/TechnoDemo_Study/
+/TechnoDemo_Study
 
 
 # This .gitignore file should be placed at the root of your Unity project directory
@@ -55,6 +55,7 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
