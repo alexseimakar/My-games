@@ -5,7 +5,7 @@ public class Player_movement : MonoBehaviour
     public float moveSpeed;
     public float rotationSpeed;
     Rigidbody2D rb;
-    Vector2 moveDir;
+    public Vector2 moveDir;
 
     
     void Start()
